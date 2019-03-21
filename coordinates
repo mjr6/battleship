@@ -1,0 +1,261 @@
+void assign_row_and_column_coordinates_player1() {
+
+	if (player1_ship_coordinates[0] == 'a') {
+		row = 0;
+	}
+	else if (player1_ship_coordinates[0] == 'b') {
+		row = 1;
+	}
+	else if (player1_ship_coordinates[0] == 'c') {
+		row = 2;
+	}
+	else if (player1_ship_coordinates[0] == 'd') {
+		row = 3;
+	}
+	else if (player1_ship_coordinates[0] == 'e') {
+		row = 4;
+	}
+	else if (player1_ship_coordinates[0] == 'f') {
+		row = 5;
+	}
+	else if (player1_ship_coordinates[0] == 'g') {
+		row = 6;
+	}
+	else if (player1_ship_coordinates[0] == 'h') {
+		row = 7;
+	}
+	else if (player1_ship_coordinates[0] == 'i') {
+		row = 8;
+	}
+	else if (player1_ship_coordinates[0] == 'j') {
+		row = 9;
+	}
+
+	if (player1_ship_coordinates[1] == '0') {
+		col = 1;
+	}
+	else if (player1_ship_coordinates[1] == '1') {
+		col = 2;
+	}
+	else if (player1_ship_coordinates[1] == '2') {
+		col = 3;
+	}
+	else if (player1_ship_coordinates[1] == '3') {
+		col = 4;
+	}
+	else if (player1_ship_coordinates[1] == '4') {
+		col = 5;
+	}
+	else if (player1_ship_coordinates[1] == '5') {
+		col = 6;
+	}
+	else if (player1_ship_coordinates[1] == '6') {
+		col = 7;
+	}
+	else if (player1_ship_coordinates[1] == '7') {
+		col = 8;
+	}
+	else if (player1_ship_coordinates[1] == '8') {
+		col = 9;
+	}
+	else if (player1_ship_coordinates[1] == '9') {
+		col = 10;
+	}
+}
+
+
+void assign_row_and_column_attack_coordinates_player1() {
+
+	if (player1_attack_coordinates[0] == 'a') {
+		attack_row = 0;
+	}
+	else if (player1_attack_coordinates[0] == 'b') {
+		attack_row = 1;
+	}
+	else if (player1_attack_coordinates[0] == 'c') {
+		attack_row = 2;
+	}
+	else if (player1_attack_coordinates[0] == 'd') {
+		attack_row = 3;
+	}
+	else if (player1_attack_coordinates[0] == 'e') {
+		attack_row = 4;
+	}
+	else if (player1_attack_coordinates[0] == 'f') {
+		attack_row = 5;
+	}
+	else if (player1_attack_coordinates[0] == 'g') {
+		attack_row = 6;
+	}
+	else if (player1_attack_coordinates[0] == 'h') {
+		attack_row = 7;
+	}
+	else if (player1_attack_coordinates[0] == 'i') {
+		attack_row = 8;
+	}
+	else if (player1_attack_coordinates[0] == 'j') {
+		attack_row = 9;
+	}
+
+	if (player1_attack_coordinates[1] == '0') {
+		attack_col = 1;
+	}
+	else if (player1_attack_coordinates[1] == '1') {
+		attack_col = 2;
+	}
+	else if (player1_attack_coordinates[1] == '2') {
+		attack_col = 3;
+	}
+	else if (player1_attack_coordinates[1] == '3') {
+		attack_col = 4;
+	}
+	else if (player1_attack_coordinates[1] == '4') {
+		attack_col = 5;
+	}
+	else if (player1_attack_coordinates[1] == '5') {
+		attack_col = 6;
+	}
+	else if (player1_attack_coordinates[1] == '6') {
+		attack_col = 7;
+	}
+	else if (player1_attack_coordinates[1] == '7') {
+		attack_col = 8;
+	}
+	else if (player1_attack_coordinates[1] == '8') {
+		attack_col = 9;
+	}
+	else if (player1_attack_coordinates[1] == '9') {
+		attack_col = 10;
+	}
+}
+
+void assign_row_and_column_coordinates_player2() {
+
+	if (player2_ship_coordinates[0] == 'a') {
+		row = 0;
+	}
+	else if (player2_ship_coordinates[0] == 'b') {
+		row = 1;
+	}
+	else if (player2_ship_coordinates[0] == 'c') {
+		row = 2;
+	}
+	else if (player2_ship_coordinates[0] == 'd') {
+		row = 3;
+	}
+	else if (player2_ship_coordinates[0] == 'e') {
+		row = 4;
+	}
+	else if (player2_ship_coordinates[0] == 'f') {
+		row = 5;
+	}
+	else if (player2_ship_coordinates[0] == 'g') {
+		row = 6;
+	}
+	else if (player2_ship_coordinates[0] == 'h') {
+		row = 7;
+	}
+	else if (player2_ship_coordinates[0] == 'i') {
+		row = 8;
+	}
+	else if (player2_ship_coordinates[0] == 'j') {
+		row = 9;
+	}
+
+	if (player2_ship_coordinates[1] == '0') {
+		col = 1;
+	}
+	else if (player2_ship_coordinates[1] == '1') {
+		col = 2;
+	}
+	else if (player2_ship_coordinates[1] == '2') {
+		col = 3;
+	}
+	else if (player2_ship_coordinates[1] == '3') {
+		col = 4;
+	}
+	else if (player2_ship_coordinates[1] == '4') {
+		col = 5;
+	}
+	else if (player2_ship_coordinates[1] == '5') {
+		col = 6;
+	}
+	else if (player2_ship_coordinates[1] == '6') {
+		col = 7;
+	}
+	else if (player2_ship_coordinates[1] == '7') {
+		col = 8;
+	}
+	else if (player2_ship_coordinates[1] == '8') {
+		col = 9;
+	}
+	else if (player2_ship_coordinates[1] == '9') {
+		col = 10;
+	}
+}
+
+
+void assign_row_and_column_attack_coordinates_player2() {
+
+	if (player2_attack_coordinates[0] == 'a') {
+		attack_row = 0;
+	}
+	else if (player2_attack_coordinates[0] == 'b') {
+		attack_row = 1;
+	}
+	else if (player2_attack_coordinates[0] == 'c') {
+		attack_row = 2;
+	}
+	else if (player2_attack_coordinates[0] == 'd') {
+		attack_row = 3;
+	}
+	else if (player2_attack_coordinates[0] == 'e') {
+		attack_row = 4;
+	}
+	else if (player2_attack_coordinates[0] == 'f') {
+		attack_row = 5;
+	}
+	else if (player2_attack_coordinates[0] == 'g') {
+		attack_row = 6;
+	}
+	else if (player2_attack_coordinates[0] == 'h') {
+		attack_row = 7;
+	}
+	else if (player2_attack_coordinates[0] == 'i') {
+		attack_row = 8;
+	}
+	else if (player2_attack_coordinates[0] == 'j') {
+		attack_row = 9;
+	}
+
+	if (player2_attack_coordinates[1] == '0') {
+		attack_col = 1;
+	}
+	else if (player2_attack_coordinates[1] == '1') {
+		attack_col = 2;
+	}
+	else if (player2_attack_coordinates[1] == '2') {
+		attack_col = 3;
+	}
+	else if (player2_attack_coordinates[1] == '3') {
+		attack_col = 4;
+	}
+	else if (player2_attack_coordinates[1] == '4') {
+		attack_col = 5;
+	}
+	else if (player2_attack_coordinates[1] == '5') {
+		attack_col = 6;
+	}
+	else if (player2_attack_coordinates[1] == '6') {
+		attack_col = 7;
+	}
+	else if (player2_attack_coordinates[1] == '7') {
+		attack_col = 8;
+	}
+	else if (player2_attack_coordinates[1] == '8') {
+		attack_col = 9;
+	}
+	else if (player2_attack_coordinates[1] == '9') {
+		attack_col = 10;
+	}
+}
