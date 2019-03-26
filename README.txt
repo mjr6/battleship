@@ -12,4 +12,4 @@ Boat.h/Boat.cpp -- M.R
 
 Player.h/Player.cpp -- A.Z
 
-
+coordinates -- J.H
