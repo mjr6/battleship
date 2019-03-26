@@ -1,5 +1,6 @@
+//equates inputed postions on the board to the coordinates in the array
 void assign_row_and_column_coordinates_player1() {
-
+							//player 1 coordinates for the rows in the array
 	if (player1_ship_coordinates[0] == 'a') {
 		row = 0;
 	}
@@ -30,7 +31,7 @@ void assign_row_and_column_coordinates_player1() {
 	else if (player1_ship_coordinates[0] == 'j') {
 		row = 9;
 	}
-
+								//player 1 coordinates for the columns in the array
 	if (player1_ship_coordinates[1] == '0') {
 		col = 1;
 	}
@@ -65,7 +66,7 @@ void assign_row_and_column_coordinates_player1() {
 
 
 void assign_row_and_column_attack_coordinates_player1() {
-
+								////player 1 attack coordinates for the rows in the array
 	if (player1_attack_coordinates[0] == 'a') {
 		attack_row = 0;
 	}
@@ -96,7 +97,7 @@ void assign_row_and_column_attack_coordinates_player1() {
 	else if (player1_attack_coordinates[0] == 'j') {
 		attack_row = 9;
 	}
-
+								//player 1 attack coordinates for the columns in the array
 	if (player1_attack_coordinates[1] == '0') {
 		attack_col = 1;
 	}
@@ -128,9 +129,9 @@ void assign_row_and_column_attack_coordinates_player1() {
 		attack_col = 10;
 	}
 }
-
+//equates inputed postions on the board to the coordinates in the array
 void assign_row_and_column_coordinates_player2() {
-
+								//player 2 coordinates for the rows in the array
 	if (player2_ship_coordinates[0] == 'a') {
 		row = 0;
 	}
@@ -161,7 +162,7 @@ void assign_row_and_column_coordinates_player2() {
 	else if (player2_ship_coordinates[0] == 'j') {
 		row = 9;
 	}
-
+								//player 2 coordinates for the columns in the array
 	if (player2_ship_coordinates[1] == '0') {
 		col = 1;
 	}
@@ -196,7 +197,7 @@ void assign_row_and_column_coordinates_player2() {
 
 
 void assign_row_and_column_attack_coordinates_player2() {
-
+									////player 2 attack coordinates for the rows in the array
 	if (player2_attack_coordinates[0] == 'a') {
 		attack_row = 0;
 	}
@@ -227,7 +228,7 @@ void assign_row_and_column_attack_coordinates_player2() {
 	else if (player2_attack_coordinates[0] == 'j') {
 		attack_row = 9;
 	}
-
+									////player 2 coordinates for the columns in the array
 	if (player2_attack_coordinates[1] == '0') {
 		attack_col = 1;
 	}
