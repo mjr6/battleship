@@ -3,260 +3,260 @@ void assign_row_and_column_coordinates_player1() {
 							//player 1 coordinates for the rows in the array
 	if (player1_ship_coordinates[0] == 'a') {
 		row = 0;
-	}
+	}						//player 1 chooses a which goes to position 0 in row
 	else if (player1_ship_coordinates[0] == 'b') {
 		row = 1;
-	}
+	}						//player 1 chooses b which goes to position 1 in row
 	else if (player1_ship_coordinates[0] == 'c') {
 		row = 2;
-	}
+	}						//player 1 chooses c which goes to position 2 in row
 	else if (player1_ship_coordinates[0] == 'd') {
 		row = 3;
-	}
+	}						//player 1 chooses d which goes to position 3 in row
 	else if (player1_ship_coordinates[0] == 'e') {
 		row = 4;
-	}
+	}						//player 1 chooses e which goes to position 4 in row
 	else if (player1_ship_coordinates[0] == 'f') {
 		row = 5;
-	}
+	}						//player 1 chooses f which goes to position 5 in row
 	else if (player1_ship_coordinates[0] == 'g') {
 		row = 6;
-	}
+	}						//player 1 chooses g which goes to position 6 in row
 	else if (player1_ship_coordinates[0] == 'h') {
 		row = 7;
-	}
+	}						//player 1 chooses h which goes to position 7 in row
 	else if (player1_ship_coordinates[0] == 'i') {
 		row = 8;
-	}
+	}						//player 1 chooses i which goes to position 8 in row
 	else if (player1_ship_coordinates[0] == 'j') {
 		row = 9;
-	}
+	}						//player 1 chooses j which goes to position 9 in row
 								//player 1 coordinates for the columns in the array
 	if (player1_ship_coordinates[1] == '0') {
 		col = 0;
-	}
+	}						//player 1 chooses 0 which goes to position 0 in column
 	else if (player1_ship_coordinates[1] == '1') {
 		col = 1;
-	}
+	}						//player 1 chooses 1 which goes to position 1 in column
 	else if (player1_ship_coordinates[1] == '2') {
 		col = 2;
-	}
+	}						//player 1 chooses 2 which goes to position 2 in column
 	else if (player1_ship_coordinates[1] == '3') {
 		col = 3;
-	}
+	}						//player 1 chooses 3 which goes to position 3 in column
 	else if (player1_ship_coordinates[1] == '4') {
 		col = 4;
-	}
+	}						//player 1 chooses 4 which goes to position 4 in column
 	else if (player1_ship_coordinates[1] == '5') {
 		col = 5;
-	}
+	}						//player 1 chooses 5 which goes to position 5 in column
 	else if (player1_ship_coordinates[1] == '6') {
 		col = 6;
-	}
+	}						//player 1 chooses 6 which goes to position 6 in column
 	else if (player1_ship_coordinates[1] == '7') {
 		col = 7;
-	}
+	}						//player 1 chooses 7 which goes to position 7 in column
 	else if (player1_ship_coordinates[1] == '8') {
 		col = 8;
-	}
+	}						//player 1 chooses 8 which goes to position 8 in column
 	else if (player1_ship_coordinates[1] == '9') {
 		col = 9;
-	}
+	}						//player 1 chooses 9 which goes to position 9 in column
 }
 
 
 void assign_row_and_column_attack_coordinates_player1() {
-								////player 1 attack coordinates for the rows in the array
+								//player 1 attack coordinates for the rows in the array
 	if (player1_attack_coordinates[0] == 'a') {
 		attack_row = 0;
-	}
+	}							//player 1 chooses a which goes to position 0 in row for attack
 	else if (player1_attack_coordinates[0] == 'b') {
 		attack_row = 1;
-	}
+	}							//player 1 chooses b which goes to position 1 in row for attack
 	else if (player1_attack_coordinates[0] == 'c') {
 		attack_row = 2;
-	}
+	}							//player 1 chooses c which goes to position 2 in row for attack
 	else if (player1_attack_coordinates[0] == 'd') {
 		attack_row = 3;
-	}
+	}							//player 1 chooses d which goes to position 3 in row for attack
 	else if (player1_attack_coordinates[0] == 'e') {
 		attack_row = 4;
-	}
+	}							//player 1 chooses e which goes to position 4 in row for attack
 	else if (player1_attack_coordinates[0] == 'f') {
 		attack_row = 5;
-	}
+	}							//player 1 chooses f which goes to position 5 in row for attack
 	else if (player1_attack_coordinates[0] == 'g') {
 		attack_row = 6;
-	}
+	}							//player 1 chooses g which goes to position 6 in row for attack
 	else if (player1_attack_coordinates[0] == 'h') {
 		attack_row = 7;
-	}
+	}							//player 1 chooses h which goes to position 7 in row for attack
 	else if (player1_attack_coordinates[0] == 'i') {
 		attack_row = 8;
-	}
+	}							//player 1 chooses i which goes to position 8 in row for attack
 	else if (player1_attack_coordinates[0] == 'j') {
 		attack_row = 9;
-	}
+	}							//player 1 chooses j which goes to position 9 in row for attack
 								//player 1 attack coordinates for the columns in the array
 	if (player1_attack_coordinates[1] == '0') {
 		attack_col = 0;
-	}
+	}							//player 1 chooses 0 which goes to position 0 in column for attack
 	else if (player1_attack_coordinates[1] == '1') {
 		attack_col = 1;
-	}
+	}							//player 1 chooses 1 which goes to position 1 in column for attack
 	else if (player1_attack_coordinates[1] == '2') {
 		attack_col = 2;
-	}
+	}							//player 1 chooses 2 which goes to position 2 in column for attack
 	else if (player1_attack_coordinates[1] == '3') {
 		attack_col = 3;
-	}
+	}							//player 1 chooses 3 which goes to position 3 in column for attack
 	else if (player1_attack_coordinates[1] == '4') {
 		attack_col = 4;
-	}
+	}							//player 1 chooses 4 which goes to position 4 in column for attack
 	else if (player1_attack_coordinates[1] == '5') {
 		attack_col = 5;
-	}
+	}							//player 1 chooses 5 which goes to position 5 in column for attack
 	else if (player1_attack_coordinates[1] == '6') {
 		attack_col = 6;
-	}
+	}							//player 1 chooses 6 which goes to position 6 in column for attack
 	else if (player1_attack_coordinates[1] == '7') {
 		attack_col = 7;
-	}
+	}							//player 1 chooses 7 which goes to position 7 in column for attack
 	else if (player1_attack_coordinates[1] == '8') {
 		attack_col = 8;
-	}
+	}							//player 1 chooses 8 which goes to position 8 in column for attack
 	else if (player1_attack_coordinates[1] == '9') {
 		attack_col = 9;
-	}
+	}							//player 1 chooses 9 which goes to position 9 in column for attack
 }
 //equates inputed postions on the board to the coordinates in the array
 void assign_row_and_column_coordinates_player2() {
 								//player 2 coordinates for the rows in the array
 	if (player2_ship_coordinates[0] == 'a') {
 		row = 0;
-	}
+	}							//player 2 chooses a which goes to position 0 in row
 	else if (player2_ship_coordinates[0] == 'b') {
 		row = 1;
-	}
+	}							//player 2 chooses b which goes to position 1 in row
 	else if (player2_ship_coordinates[0] == 'c') {
 		row = 2;
-	}
+	}							//player 2 chooses c which goes to position 2 in row
 	else if (player2_ship_coordinates[0] == 'd') {
 		row = 3;
-	}
+	}							//player 2 chooses d which goes to position 3 in row
 	else if (player2_ship_coordinates[0] == 'e') {
 		row = 4;
-	}
+	}							//player 2 chooses e which goes to position 4 in row
 	else if (player2_ship_coordinates[0] == 'f') {
 		row = 5;
-	}
+	}							//player 2 chooses f which goes to position 5 in row
 	else if (player2_ship_coordinates[0] == 'g') {
 		row = 6;
-	}
+	}							//player 2 chooses g which goes to position 6 in row
 	else if (player2_ship_coordinates[0] == 'h') {
 		row = 7;
-	}
+	}							//player 2 chooses h which goes to position 7 in row
 	else if (player2_ship_coordinates[0] == 'i') {
 		row = 8;
-	}
+	}							//player 2 chooses i which goes to position 8 in row
 	else if (player2_ship_coordinates[0] == 'j') {
 		row = 9;
-	}
+	}							//player 2 chooses j which goes to position 9 in row
 								//player 2 coordinates for the columns in the array
 	if (player2_ship_coordinates[1] == '0') {
 		col = 0;
-	}
+	}							//player 2 chooses 0 which goes to position 0 in column
 	else if (player2_ship_coordinates[1] == '1') {
 		col = 1;
-	}
+	}							//player 2 chooses 1 which goes to position 1 in column
 	else if (player2_ship_coordinates[1] == '2') {
 		col = 2;
-	}
+	}							//player 2 chooses 2 which goes to position 2 in column
 	else if (player2_ship_coordinates[1] == '3') {
 		col = 3;
-	}
+	}							//player 2 chooses 3 which goes to position 3 in column
 	else if (player2_ship_coordinates[1] == '4') {
 		col = 4;
-	}
+	}							//player 2 chooses 4 which goes to position 4 in column
 	else if (player2_ship_coordinates[1] == '5') {
 		col = 5;
-	}
+	}							//player 2 chooses 5 which goes to position 5 in column
 	else if (player2_ship_coordinates[1] == '6') {
 		col = 6;
-	}
+	}							//player 2 chooses 6 which goes to position 6 in column
 	else if (player2_ship_coordinates[1] == '7') {
 		col = 7;
-	}
+	}							//player 2 chooses 7 which goes to position 7 in column
 	else if (player2_ship_coordinates[1] == '8') {
 		col = 8;
-	}
+	}							//player 2 chooses 8 which goes to position 8 in column
 	else if (player2_ship_coordinates[1] == '9') {
 		col = 9;
-	}
+	}							//player 2 chooses 9 which goes to position 9 in column
 }
 
 
 void assign_row_and_column_attack_coordinates_player2() {
-									////player 2 attack coordinates for the rows in the array
+									//player 2 attack coordinates for the rows in the array
 	if (player2_attack_coordinates[0] == 'a') {
 		attack_row = 0;
-	}
+	}								//player 2 chooses a which goes to position 0 in row for attack
 	else if (player2_attack_coordinates[0] == 'b') {
 		attack_row = 1;
-	}
+	}								//player 2 chooses b which goes to position 1 in row for attack
 	else if (player2_attack_coordinates[0] == 'c') {
 		attack_row = 2;
-	}
+	}								//player 2 chooses c which goes to position 2 in row for attack
 	else if (player2_attack_coordinates[0] == 'd') {
 		attack_row = 3;
-	}
+	}								//player 2 chooses d which goes to position 3 in row for attack
 	else if (player2_attack_coordinates[0] == 'e') {
 		attack_row = 4;
-	}
+	}								//player 2 chooses e which goes to position 4 in row for attack
 	else if (player2_attack_coordinates[0] == 'f') {
 		attack_row = 5;
-	}
+	}								//player 2 chooses f which goes to position 5 in row for attack
 	else if (player2_attack_coordinates[0] == 'g') {
 		attack_row = 6;
-	}
+	}								//player 2 chooses g which goes to position 6 in row for attack
 	else if (player2_attack_coordinates[0] == 'h') {
 		attack_row = 7;
-	}
+	}								//player 2 chooses h which goes to position 7 in row for attack
 	else if (player2_attack_coordinates[0] == 'i') {
 		attack_row = 8;
-	}
+	}								//player 2 chooses i which goes to position 8 in row for attack
 	else if (player2_attack_coordinates[0] == 'j') {
 		attack_row = 9;
-	}
+	}								//player 2 chooses j which goes to position 9 in row for attack
 									////player 2 coordinates for the columns in the array
 	if (player2_attack_coordinates[1] == '0') {
 		attack_col = 0;
-	}
+	}								//player 2 chooses 0 which goes to position 0 in column for attack
 	else if (player2_attack_coordinates[1] == '1') {
 		attack_col = 1;
-	}
+	}								//player 2 chooses 1 which goes to position 1 in column for attack
 	else if (player2_attack_coordinates[1] == '2') {
 		attack_col = 2;
-	}
+	}								//player 2 chooses 2 which goes to position 2 in column for attack
 	else if (player2_attack_coordinates[1] == '3') {
 		attack_col = 3;
-	}
+	}								//player 2 chooses 3 which goes to position 3 in column for attack
 	else if (player2_attack_coordinates[1] == '4') {
 		attack_col = 4;
-	}
+	}								//player 2 chooses 4 which goes to position 4 in column for attack
 	else if (player2_attack_coordinates[1] == '5') {
 		attack_col = 5;
-	}
+	}								//player 2 chooses 5 which goes to position 5 in column for attack
 	else if (player2_attack_coordinates[1] == '6') {
 		attack_col = 6;
-	}
+	}								//player 2 chooses 6 which goes to position 6 in column for attack
 	else if (player2_attack_coordinates[1] == '7') {
 		attack_col = 7;
-	}
+	}								//player 2 chooses 7 which goes to position 7 in column for attack
 	else if (player2_attack_coordinates[1] == '8') {
 		attack_col = 8;
-	}
+	}								//player 2 chooses 8 which goes to position 8 in column for attack
 	else if (player2_attack_coordinates[1] == '9') {
 		attack_col = 9;
-	}
+	}								//player 2 chooses 9 which goes to position 9 in column for attack
 }
