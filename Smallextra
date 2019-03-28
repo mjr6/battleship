@@ -1,8 +1,13 @@
 #include <iostream>
 #include "windows.h"
 using namespace std;
+void initiate();
 
 int main() {
+	initiate();
+}
+
+void initiate() {
 	HANDLE hStdout;
 	hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(hStdout, FOREGROUND_BLUE | BACKGROUND_RED);
@@ -19,7 +24,5 @@ int main() {
 	cout << "Size 2 Destroyer" << endl;
 
 	cout << "Best of luck out there, you will most certainly need it!";
-	cin.ignore();
-	cin.get();
-	return 0;
+	
 }
