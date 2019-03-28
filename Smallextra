@@ -1,0 +1,25 @@
+#include <iostream>
+#include "windows.h"
+using namespace std;
+
+int main() {
+	HANDLE hStdout;
+	hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
+	SetConsoleTextAttribute(hStdout, FOREGROUND_BLUE | BACKGROUND_RED);
+	cout << "Welcome to BATTLESHIPS" << endl;
+	cout << "A console turn based game produced by Andrey Zhitenev, Michael Ray and John Houston" << endl;
+	SetConsoleTextAttribute(hStdout, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
+	cout << "Welcome to the seas! Here, no one is your friend." << endl;
+	cout << "You must aim to sink the other teams ships, while strategically placing yours to avoid the same fate." << endl;
+	cout << "Your crew consists of : " << endl;
+	cout << "Size 5 Carrier" << endl;
+	cout << "Size 4 Battleship" << endl;
+	cout << "Size 3 Submarine" << endl;
+	cout << "Size 3 Cruiser" << endl;
+	cout << "Size 2 Destroyer" << endl;
+
+	cout << "Best of luck out there, you will most certainly need it!";
+	cin.ignore();
+	cin.get();
+	return 0;
+}
